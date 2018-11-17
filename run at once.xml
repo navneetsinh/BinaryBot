@@ -1,0 +1,208 @@
+﻿<xml xmlns="http://www.w3.org/1999/xhtml" collection="true">
+  <block type="procedures_defnoreturn" id="!w|-9SS]X~FLvLCsJ*Lj">
+    <mutation>
+      <arg name="IBB:Standard Stake :::" varid="QwB1?Ej;O?kfD*5iS#BH"></arg>
+      <arg name="IBB:Expected Profit :::" varid=")zG;WI62a+Y6-aag%1dz"></arg>
+      <arg name="IBB:Stop Loss :::" varid="o;tzsz+:xDWHq%v}m$Iv"></arg>
+      <arg name="IBB:Win Martingale :::" varid="@*M#@[H#19LlQO`@XxfH"></arg>
+      <arg name="IBB:Loss Martingale :::" varid="flgUB]RXa2.S3@!hoqNY"></arg>
+      <arg name="IBB:Loss Martingale Level :::" varid="9BOjmw.bcCmO$p[$kQp?"></arg>
+      <arg name="IBB:Duration :::" varid="51%*w|6UC8E:l8hs/FWZ"></arg>
+      <arg name="IBB:Prediction :::" varid="_ja]]lgTu.ZE#T~|).~Y"></arg>
+      <arg name="IBB:Barrier Offset 1 :::" varid="sI*0WCW!e+6c?Sv540mF"></arg>
+      <arg name="IBB:Barrier Offset 2 :::" varid="0@[1=OxQ}I+{XyHTh-2d"></arg>
+    </mutation>
+    <field name="NAME">IBB:Run Once at Start</field>
+    <comment pinned="false" h="80" w="160">Describe this function...</comment>
+    <statement name="STACK">
+      <block type="variables_set" id="9LzgPfa^DaR3/G|zVWiP">
+        <field name="VAR" id="YMt(xMby,8T*K1^b#9SL" variabletype="">IBB:Standard Stake</field>
+        <value name="VALUE">
+          <block type="variables_get" id="JG_.VsGpIM_w^y-Tr4aw">
+            <field name="VAR" id="QwB1?Ej;O?kfD*5iS#BH" variabletype="">IBB:Standard Stake :::</field>
+          </block>
+        </value>
+        <next>
+          <block type="variables_set" id="v`RkE[2ch6$pNs^LJm7z">
+            <field name="VAR" id="pN6lh.W^|qT%^{hd=!lp" variabletype="">IBB:Expected Profit</field>
+            <value name="VALUE">
+              <block type="variables_get" id="6bZ2ey@H,~Z`1f^;LLJM">
+                <field name="VAR" id=")zG;WI62a+Y6-aag%1dz" variabletype="">IBB:Expected Profit :::</field>
+              </block>
+            </value>
+            <next>
+              <block type="variables_set" id="el-3[,6@:M|$+^R;7w78">
+                <field name="VAR" id="#pZ1F9O1C+Q7,.x_b)uy" variabletype="">IBB:Stop Loss</field>
+                <value name="VALUE">
+                  <block type="variables_get" id="K;5},$x3Twg*VQ@S(*Oi">
+                    <field name="VAR" id="o;tzsz+:xDWHq%v}m$Iv" variabletype="">IBB:Stop Loss :::</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="variables_set" id="Rf;.-2pPL^OJ$;/A@C)X">
+                    <field name="VAR" id="?2@`vSi}OW]i.1-R]ag6" variabletype="">IBB:Win Martingale</field>
+                    <value name="VALUE">
+                      <block type="variables_get" id="zV13MCJTh-8#?J?;J|Bj">
+                        <field name="VAR" id="@*M#@[H#19LlQO`@XxfH" variabletype="">IBB:Win Martingale :::</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="variables_set" id="[_phTlR_hqhi[5$^Pb1[">
+                        <field name="VAR" id="b.*$t#f~02,;sp@]VDIm" variabletype="">IBB:Loss Martingale</field>
+                        <value name="VALUE">
+                          <block type="variables_get" id="aK]=uyD]$?HrwoPS[i3e">
+                            <field name="VAR" id="flgUB]RXa2.S3@!hoqNY" variabletype="">IBB:Loss Martingale :::</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="variables_set" id="_a$GN*;nF@dWfW@@_Sl8">
+                            <field name="VAR" id="lERD9:w4~T-WDZLa*cD2" variabletype="">IBB:Loss Martingale Level</field>
+                            <value name="VALUE">
+                              <block type="variables_get" id="t_68waI_`bbACOPBOz!g">
+                                <field name="VAR" id="9BOjmw.bcCmO$p[$kQp?" variabletype="">IBB:Loss Martingale Level :::</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="variables_set" id="}?UTWoZFXfoNZ:qQ2,zm">
+                                <field name="VAR" id="rcbMZPa1*Iomq}S|W2Dr" variabletype="">IBB:Duration</field>
+                                <value name="VALUE">
+                                  <block type="variables_get" id="1VwO~$6;UnEmp.13bf)%">
+                                    <field name="VAR" id="51%*w|6UC8E:l8hs/FWZ" variabletype="">IBB:Duration :::</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="variables_set" id="OBFfI}z,.:_d?|NVU@b/">
+                                    <field name="VAR" id="k_H+t15[t=gJc8s`z69X" variabletype="">IBB:Prediction</field>
+                                    <value name="VALUE">
+                                      <block type="variables_get" id="{{?LP9GmSc|EDKUm6w-x">
+                                        <field name="VAR" id="_ja]]lgTu.ZE#T~|).~Y" variabletype="">IBB:Prediction :::</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="variables_set" id="Z%fVYLK-)`|3lF)BG%PZ">
+                                        <field name="VAR" id="Q`F^X@Vi6-g$k[t)gMUh" variabletype="">IBB:Barrier Offset 1</field>
+                                        <value name="VALUE">
+                                          <block type="variables_get" id="[C$hr;D7RHc(N}~em,C:">
+                                            <field name="VAR" id="sI*0WCW!e+6c?Sv540mF" variabletype="">IBB:Barrier Offset 1 :::</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="variables_set" id="5QItvCrj?:#?yG(m;Fc~">
+                                            <field name="VAR" id="SA+,p#Hvv8tKG5c85O:K" variabletype="">IBB:Barrier Offset 2</field>
+                                            <value name="VALUE">
+                                              <block type="variables_get" id="#3FdE`}#T,){.P{KDgQf">
+                                                <field name="VAR" id="0@[1=OxQ}I+{XyHTh-2d" variabletype="">IBB:Barrier Offset 2 :::</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="variables_set" id="!v8zfySEtveaXe]mg%Xm">
+                                                <field name="VAR" id="m~_tbWl:Uz?A.UWkN_dJ" variabletype="">IBB:Initial Stake</field>
+                                                <value name="VALUE">
+                                                  <block type="variables_get" id="sMasRQ:d4,rLjjmzQR@]">
+                                                    <field name="VAR" id="YMt(xMby,8T*K1^b#9SL" variabletype="">IBB:Standard Stake</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="variables_set" id="s,(lx@[-yY+)/5{[iX*o">
+                                                    <field name="VAR" id="FS:dO+4N@B{uEX?pp5Mb" variabletype="">IBB:Lost Amount</field>
+                                                    <value name="VALUE">
+                                                      <block type="math_number" id="C.=i|5.5eL)gY3`Qi1Q?">
+                                                        <field name="NUM">0</field>
+                                                      </block>
+                                                    </value>
+                                                    <next>
+                                                      <block type="variables_set" id="{GjF[E!$C7#K$+86r|sq">
+                                                        <field name="VAR" id="|kHC~~=b8wgdT(SjjvK_" variabletype="">IBB:Count : Win</field>
+                                                        <value name="VALUE">
+                                                          <block type="math_number" id="iVxiY8_Dx*^0IoJ2{G+c">
+                                                            <field name="NUM">0</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="variables_set" id="P`9e3P2h:*C$(XI-((r6">
+                                                            <field name="VAR" id="pYSrgu2W:kdeQYGzA`ch" variabletype="">IBB:Count : Loss</field>
+                                                            <value name="VALUE">
+                                                              <block type="math_number" id="|0+6HR_|#G2$C7+xNrm8">
+                                                                <field name="NUM">0</field>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="variables_set" id="xceKhV8Rg:{+)TTb~P$?">
+                                                                <field name="VAR" id="Pi-^Mfq+`BWpK%e$ir8c" variabletype="">IBB:Count : Win Total</field>
+                                                                <value name="VALUE">
+                                                                  <block type="variables_get" id="(kFdML1v*M,i:,rUWe0P">
+                                                                    <field name="VAR" id="|kHC~~=b8wgdT(SjjvK_" variabletype="">IBB:Count : Win</field>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="variables_set" id="N}*OtW(u}Zla~s6JKlF6">
+                                                                    <field name="VAR" id="9wD]V?~)2|Bw6Y5`RE=A" variabletype="">IBB:Count : Loss Total</field>
+                                                                    <value name="VALUE">
+                                                                      <block type="variables_get" id=",E-*#VaI=yHJ/m/VK`ma">
+                                                                        <field name="VAR" id="pYSrgu2W:kdeQYGzA`ch" variabletype="">IBB:Count : Loss</field>
+                                                                      </block>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="variables_set" id="8{XsrB,FfAuG1z52*S.D">
+                                                                        <field name="VAR" id="Axabp*=$Tx9Ei-T(4%)5" variabletype="">IBB:Calculate Loss Martingale</field>
+                                                                        <value name="VALUE">
+                                                                          <block type="math_number" id="m_14bnJ:Og_}DMUXu0)]">
+                                                                            <field name="NUM">0</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="variables_set" id="/AMpCWb7@rCnFiZ5QHl/">
+                                                                            <field name="VAR" id="GuKK1)WC?55urVrR/)km" variabletype="">IBB:Maximum Buy Price</field>
+                                                                            <value name="VALUE">
+                                                                              <block type="variables_get" id="@Nk^,w`H9#yfGdn0:}p.">
+                                                                                <field name="VAR" id="m~_tbWl:Uz?A.UWkN_dJ" variabletype="">IBB:Initial Stake</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <next>
+                                                                              <block type="variables_set" id="yW9yIKu,t=Vq]^{1o[G/">
+                                                                                <field name="VAR" id="$$0d=|dpBU/afa$[]KqC" variabletype="">IBB:Minimum Investment</field>
+                                                                                <value name="VALUE">
+                                                                                  <block type="variables_get" id="(8RPp[=;UbRP=mobC8:L">
+                                                                                    <field name="VAR" id="GuKK1)WC?55urVrR/)km" variabletype="">IBB:Maximum Buy Price</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
