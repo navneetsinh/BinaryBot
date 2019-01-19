@@ -1,17 +1,17 @@
 ﻿<xml xmlns="http://www.w3.org/1999/xhtml" collection="false">
   <variables>
-    <variable type="" id="_;oSBhhf_qd:o`))m^5X">rsi</variable>
-    <variable type="" id="Pks(D*E]YT7{4h`=zvdX">rsi overbought average</variable>
-    <variable type="" id="P4uft*WoKLh:hw).@;92">rsi oversold average</variable>
-    <variable type="" id="QxXAbm53wA|2o0^1EAsj">rsi overbought</variable>
-    <variable type="" id="x=0u*NXMJUY9#s]dBD_~">rsi oversold</variable>
+    <variable type="" id="_;oSBhhf_qd:o`))m^5X">RSI</variable>
+    <variable type="" id="Pks(D*E]YT7{4h`=zvdX">RSI overbought average</variable>
+    <variable type="" id="P4uft*WoKLh:hw).@;92">RSI oversold average</variable>
+    <variable type="" id="QxXAbm53wA|2o0^1EAsj">RSI overbought</variable>
+    <variable type="" id="x=0u*NXMJUY9#s]dBD_~">RSI oversold</variable>
   </variables>
   <block type="tick_analysis" id="w2fk7fcLf@+]#?Ds2jfL" x="0" y="0">
     <statement name="TICKANALYSIS_STACK">
       <block type="variables_set" id="FEHDI+Z+KJ|^Kpk]|5M#">
-        <field name="VAR" id="_;oSBhhf_qd:o`))m^5X" variabletype="">rsi</field>
+        <field name="VAR" id="_;oSBhhf_qd:o`))m^5X" variabletype="">RSI</field>
         <value name="VALUE">
-          <block type="rsi" id=";g([y#lyA@n{.rQU_7_B">
+          <block type="RSI" id=";g([y#lyA@n{.rQU_7_B">
             <value name="INPUT">
               <block type="ticks" id="CCzKM(Z),]x=+V^1i]a8"></block>
             </value>
@@ -30,19 +30,19 @@
                 <field name="OP">GT</field>
                 <value name="A">
                   <block type="variables_get" id="_USH;3.XlzI.f7n6v9u[">
-                    <field name="VAR" id="_;oSBhhf_qd:o`))m^5X" variabletype="">rsi</field>
+                    <field name="VAR" id="_;oSBhhf_qd:o`))m^5X" variabletype="">RSI</field>
                   </block>
                 </value>
                 <value name="B">
                   <block type="variables_get" id="8}RX)M~1ALUhL9,v@+v3">
-                    <field name="VAR" id="QxXAbm53wA|2o0^1EAsj" variabletype="">rsi overbought</field>
+                    <field name="VAR" id="QxXAbm53wA|2o0^1EAsj" variabletype="">RSI overbought</field>
                   </block>
                 </value>
               </block>
             </value>
             <statement name="DO0">
               <block type="variables_set" id="K:T(C08VeXzM;wE|qc.P">
-                <field name="VAR" id="Pks(D*E]YT7{4h`=zvdX" variabletype="">rsi overbought average</field>
+                <field name="VAR" id="Pks(D*E]YT7{4h`=zvdX" variabletype="">RSI overbought average</field>
                 <value name="VALUE">
                   <block type="math_arithmetic" id="[i.qGqaIH.2Bxgwbn3qG">
                     <field name="OP">DIVIDE</field>
@@ -57,7 +57,7 @@
                             <field name="NUM">1</field>
                           </shadow>
                           <block type="variables_get" id="b;je,0_-K~3;*BJ.6`Xs">
-                            <field name="VAR" id="Pks(D*E]YT7{4h`=zvdX" variabletype="">rsi overbought average</field>
+                            <field name="VAR" id="Pks(D*E]YT7{4h`=zvdX" variabletype="">RSI overbought average</field>
                           </block>
                         </value>
                         <value name="B">
@@ -65,7 +65,7 @@
                             <field name="NUM">1</field>
                           </shadow>
                           <block type="variables_get" id="}e.#GfT?w.RJ;1qB?waN">
-                            <field name="VAR" id="_;oSBhhf_qd:o`))m^5X" variabletype="">rsi</field>
+                            <field name="VAR" id="_;oSBhhf_qd:o`))m^5X" variabletype="">RSI</field>
                           </block>
                         </value>
                       </block>
@@ -84,19 +84,19 @@
                 <field name="OP">GT</field>
                 <value name="A">
                   <block type="variables_get" id=".D3~ky};*Mv;)mxK5T`9">
-                    <field name="VAR" id="_;oSBhhf_qd:o`))m^5X" variabletype="">rsi</field>
+                    <field name="VAR" id="_;oSBhhf_qd:o`))m^5X" variabletype="">RSI</field>
                   </block>
                 </value>
                 <value name="B">
                   <block type="variables_get" id="l({KVSMG|UYFZ57b~rE+">
-                    <field name="VAR" id="x=0u*NXMJUY9#s]dBD_~" variabletype="">rsi oversold</field>
+                    <field name="VAR" id="x=0u*NXMJUY9#s]dBD_~" variabletype="">RSI oversold</field>
                   </block>
                 </value>
               </block>
             </value>
             <statement name="DO1">
               <block type="variables_set" id=";zg[=Ny-RM7}Byko`T%d">
-                <field name="VAR" id="P4uft*WoKLh:hw).@;92" variabletype="">rsi oversold average</field>
+                <field name="VAR" id="P4uft*WoKLh:hw).@;92" variabletype="">RSI oversold average</field>
                 <value name="VALUE">
                   <block type="math_arithmetic" id="aMn^T]t4]Q`@3]*gtP2r">
                     <field name="OP">DIVIDE</field>
@@ -111,7 +111,7 @@
                             <field name="NUM">1</field>
                           </shadow>
                           <block type="variables_get" id="e{Xtor!1tJbXKS@M{r3j">
-                            <field name="VAR" id="P4uft*WoKLh:hw).@;92" variabletype="">rsi oversold average</field>
+                            <field name="VAR" id="P4uft*WoKLh:hw).@;92" variabletype="">RSI oversold average</field>
                           </block>
                         </value>
                         <value name="B">
@@ -119,7 +119,7 @@
                             <field name="NUM">1</field>
                           </shadow>
                           <block type="variables_get" id="Aq6F+Tnbv@[xAQ)846#Y">
-                            <field name="VAR" id="_;oSBhhf_qd:o`))m^5X" variabletype="">rsi</field>
+                            <field name="VAR" id="_;oSBhhf_qd:o`))m^5X" variabletype="">RSI</field>
                           </block>
                         </value>
                       </block>
